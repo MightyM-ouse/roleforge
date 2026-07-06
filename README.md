@@ -31,7 +31,7 @@ When a role is selected, the assistant must:
 | [response-templates/](response-templates/) | Reusable response formats for common role outputs |
 | [examples/](examples/) | Correct use, wrong use, handoffs, GitHub-ready output, and redirects |
 | [quality/](quality/) | Checklists for role quality and repository review |
-| [project-adoption/](project-adoption/) | Adoption guide, project mapping template, and Magna Enso example |
+| [project-adoption/](project-adoption/) | Adoption guide, project source comparison guide, project mapping template, and Magna Enso example |
 
 ## Role Index
 
