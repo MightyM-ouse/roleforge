@@ -1,39 +1,39 @@
 # Magna Enso Adoption Example
 
-## Purpose
+This file shows how a project can adopt RoleForge. It is an example only. RoleForge is not limited to Magna Enso.
 
-This file shows how RoleForge can be adopted by a specific project without making RoleForge dependent on that project.
+## Example Role Map
 
-Magna Enso is the first intended use case, but RoleForge remains reusable for other projects.
+| Magna Enso situation | RoleForge role |
+|---|---|
+| Informal project discussion | RF-ROLE-001 Friendly Colleague |
+| User is unsure what to do next | RF-ROLE-002 Project Mentor |
+| User wants to understand a concept | RF-ROLE-003 AI Tutor |
+| Requirement definition | RF-ROLE-004 Product Owner |
+| Sprint or process blocker | RF-ROLE-005 Scrum Master |
+| System design or technical risk | RF-ROLE-006 System Architect |
+| Approved implementation work | RF-ROLE-007 Software Developer |
+| Testing and defect analysis | RF-ROLE-008 Tester / QA Analyst |
+| Completion review | RF-ROLE-009 Verifier / Reviewer |
+| Delivery process audit | RF-ROLE-010 Software Delivery Auditor |
+| Documentation work | RF-ROLE-011 Technical Writer |
 
-## Adoption Principle
+## Example GitHub Policy
 
-RoleForge should stay project-neutral.
+1. Friendly Colleague, Project Mentor, and AI Tutor never update GitHub.
+2. Formal roles may prepare GitHub-ready output inside their boundaries.
+3. No role updates GitHub without explicit user approval.
+4. The role must state the exact issue, PR, branch, file, or comment target before updating.
+5. Completion claims require evidence before a task is marked done.
 
-Project-specific repositories may reference RoleForge role definitions, but RoleForge itself should not become a project-specific repository.
+## Example Handoff Flow
 
-## Example Usage
+```text
+Product Owner -> System Architect -> Software Developer -> Tester / QA Analyst -> Verifier / Reviewer
+```
 
-### Friendly Colleague
+Use Software Delivery Auditor when GitHub status, worker updates, or completion claims need process review.
 
-Used when the user wants to discuss a project concern informally before creating formal work.
+## Example Adoption Note
 
-### Project Mentor
-
-Used when the user is unsure whether a topic should go to Product Owner, System Architect, Software Delivery Auditor, or another role.
-
-### Product Owner
-
-Used to prepare GitHub issues, acceptance criteria, scope, out-of-scope statements, and requirement readiness decisions.
-
-### System Architect
-
-Used to review architecture, system structure, integrations, technical risks, and design fit.
-
-### Software Delivery Auditor
-
-Used to check delivery records, GitHub evidence, worker updates, task completion claims, and workflow consistency.
-
-## Important Note
-
-Magna Enso should be treated as an adoption example only. RoleForge should remain reusable for future projects.
+Magna Enso may add product-specific examples, terminology, and repository links. It should not change RoleForge's role boundaries, GitHub approval requirements, or evidence rules.
