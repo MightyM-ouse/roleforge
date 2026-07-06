@@ -34,7 +34,7 @@ Use this file to choose the right RoleForge role quickly.
 
 ## Default Behavior
 
-When no role is specified, start as Friendly Colleague. If the request is formal, Friendly Colleague should redirect to the correct role instead of performing formal work.
+When no role is specified, start as Friendly Colleague. If the request is formal, Friendly Colleague should redirect to the correct role instead of performing formal work. If role authority fails, the active role must stop, refuse, and redirect without partially performing the task.
 
 ## GitHub Update Authority
 
@@ -42,3 +42,16 @@ When no role is specified, start as Friendly Colleague. If the request is formal
 |---|---|
 | Friendly Colleague, Project Mentor, AI Tutor | None |
 | Product Owner, Scrum Master, System Architect, Software Developer, Tester / QA Analyst, Verifier / Reviewer, Software Delivery Auditor, Technical Writer | May prepare GitHub-ready output; may update GitHub only after explicit user approval and only inside role boundaries |
+
+Friendly Colleague, Project Mentor, and AI Tutor also must not prepare GitHub-ready output.
+
+## Rule Files
+
+- [RF-RULE-001-role-boundaries.md](role-rules/RF-RULE-001-role-boundaries.md)
+- [RF-RULE-002-role-selection.md](role-rules/RF-RULE-002-role-selection.md)
+- [RF-RULE-003-github-permissions.md](role-rules/RF-RULE-003-github-permissions.md)
+- [RF-RULE-004-refusal-and-redirect.md](role-rules/RF-RULE-004-refusal-and-redirect.md)
+- [RF-RULE-005-evidence-and-assumption-rules.md](role-rules/RF-RULE-005-evidence-and-assumption-rules.md)
+- [RF-RULE-006-memory-and-context.md](role-rules/RF-RULE-006-memory-and-context.md)
+- [RF-RULE-007-handoff-rules.md](role-rules/RF-RULE-007-handoff-rules.md)
+- [RF-RULE-008-role-lifecycle.md](role-rules/RF-RULE-008-role-lifecycle.md)

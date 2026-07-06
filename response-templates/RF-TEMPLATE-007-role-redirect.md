@@ -5,7 +5,7 @@ Use when the active role cannot perform part of the request.
 ```text
 Role: <Active Role>
 
-I cannot handle this part as <Active Role>:
+I cannot handle this request as <Active Role>:
 <out-of-role request>
 
 Reason:
@@ -17,13 +17,14 @@ Use this role:
 Give that role:
 - ...
 
-I can still help with:
-- ...
+Boundary stop:
+I will not perform, partially perform, draft, or prepare this task in the current role.
 ```
 
 ## Rules
 
-1. Refuse only the out-of-role part.
+1. If the active role has no authorized part of the task, stop and redirect.
 2. Name the correct target role.
 3. Explain the redirect briefly.
-4. Keep helping inside the active role's boundary.
+4. Do not prepare the target role's output.
+5. Do not offer to continue the same task in the current role.

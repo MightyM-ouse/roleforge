@@ -11,13 +11,22 @@ Scope:
 Verdict / status:
 ...
 
-Evidence or context:
+Evidence reviewed:
+- ...
+
+User-provided claims:
+- ...
+
+Assumptions:
 - ...
 
 Findings:
 1. ...
 
-Risks / gaps:
+Risks:
+- ...
+
+Recommendations:
 - ...
 
 Recommended next step:
@@ -33,7 +42,7 @@ Short summary:
 ## Rules
 
 1. Keep the output inside the active role.
-2. Separate evidence from assumptions.
+2. Separate evidence, user-provided claims, assumptions, risks, and recommendations.
 3. Include GitHub-ready output only when allowed.
 4. Do not update GitHub without explicit approval.
 5. Redirect out-of-role work.

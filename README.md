@@ -27,7 +27,7 @@ When a role is selected, the assistant must:
 | [ROLEFORGE_MANIFEST.md](ROLEFORGE_MANIFEST.md) | Operating model, principles, role lifecycle, and permission model |
 | [ROLE_INDEX.md](ROLE_INDEX.md) | Quick role selection guide |
 | [roles/](roles/) | Canonical role definitions using Role File Standard v1 |
-| [role-rules/](role-rules/) | Cross-role rules for boundaries, selection, GitHub, refusal, evidence, memory, and handoff |
+| [role-rules/](role-rules/) | Cross-role rules for boundaries, selection, GitHub, refusal, evidence, memory, handoff, and lifecycle |
 | [response-templates/](response-templates/) | Reusable response formats for common role outputs |
 | [examples/](examples/) | Correct use, wrong use, handoffs, GitHub-ready output, and redirects |
 | [quality/](quality/) | Checklists for role quality and repository review |
@@ -51,7 +51,7 @@ When a role is selected, the assistant must:
 
 ## Core Rule
 
-No role may silently perform another role's responsibility. If the request belongs elsewhere, the active role must refuse that part clearly and redirect to the correct role.
+No role may silently perform another role's responsibility. If the active role is not authorized for the requested task, it must stop, refuse, and redirect. It must not partially perform the task, prepare the output, or offer to continue the same task in the same role.
 
 ## GitHub Permission Summary
 
@@ -64,6 +64,8 @@ Formal project roles may prepare GitHub-ready output when it belongs to their re
 3. Tool access is available.
 4. The role states exactly what will be changed before the update.
 
+Friendly Colleague, Project Mentor, and AI Tutor must not prepare GitHub-ready output.
+
 ## Adoption Flow
 
 1. Read [ROLEFORGE_MANIFEST.md](ROLEFORGE_MANIFEST.md).
@@ -72,7 +74,8 @@ Formal project roles may prepare GitHub-ready output when it belongs to their re
 4. Configure project-specific GitHub permission boundaries.
 5. Add project examples using [project-role-mapping-template.md](project-adoption/project-role-mapping-template.md).
 6. Review the adoption using [roleforge-review-checklist.md](quality/roleforge-review-checklist.md).
+7. Validate the structure using [roleforge-structure-validation.md](quality/roleforge-structure-validation.md).
 
 ## Status
 
-This repository contains RoleForge Operating Model v1. It is documentation-only: role definitions, rules, response formats, examples, quality checks, and adoption guidance. It intentionally does not include implementation code or executable skills.
+This repository contains RoleForge Operating Model v1.1 readiness guidance. It is documentation-only: role definitions, rules, response formats, examples, quality checks, and adoption guidance. It intentionally does not include implementation code or executable skills.
