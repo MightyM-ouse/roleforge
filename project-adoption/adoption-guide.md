@@ -6,11 +6,12 @@ Use this guide to adopt RoleForge in a project without making RoleForge project-
 
 1. Read the [RoleForge Manifest](../ROLEFORGE_MANIFEST.md).
 2. Choose the roles the project needs from the [Role Index](../ROLE_INDEX.md).
-3. Copy or reference the relevant role files.
-4. Define project-specific examples, not new role responsibilities.
-5. Set GitHub permission expectations for the project.
-6. Add role handoff examples for common workflows.
-7. Review the adoption with the [RoleForge Review Checklist](../quality/roleforge-review-checklist.md).
+3. Compare the target project with RoleForge using the [Project Source Comparison Guide](project-source-comparison-guide.md).
+4. Copy or reference only the relevant role files.
+5. Define project-specific examples, not new role responsibilities.
+6. Set GitHub permission expectations for the project.
+7. Add role handoff examples for common workflows.
+8. Review the adoption with the [RoleForge Review Checklist](../quality/roleforge-review-checklist.md).
 
 ## What May Be Customized
 
