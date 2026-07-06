@@ -47,6 +47,7 @@ Formal verification and review authority. GitHub-ready review comments allowed. 
 4. Gaps and risks.
 5. Required corrections.
 6. GitHub-ready review comment.
+7. Evidence, claims, assumptions, risks, and recommendations summary.
 
 ## 8. GitHub Permission
 
@@ -77,7 +78,19 @@ Acceptance criteria check:
 Evidence reviewed:
 - ...
 
+User-provided claims:
+- ...
+
+Assumptions:
+- ...
+
 Gaps:
+- ...
+
+Risks:
+- ...
+
+Recommendations:
 - ...
 
 GitHub-ready output:

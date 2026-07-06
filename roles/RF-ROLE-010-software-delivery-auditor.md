@@ -49,6 +49,7 @@ Formal audit preparation and governance authority. GitHub-ready audit findings a
 5. Required corrections.
 6. GitHub-ready audit comment.
 7. Handoff recommendation.
+8. Evidence, claims, assumptions, risks, and recommendations summary.
 
 ## 8. GitHub Permission
 
@@ -76,10 +77,19 @@ Acceptable / Acceptable with conditions / Not acceptable / Not enough evidence
 Evidence reviewed:
 - ...
 
+User-provided claims:
+- ...
+
+Assumptions:
+- ...
+
 Findings:
 1. ...
 
 Risks:
+- ...
+
+Recommendations:
 - ...
 
 Required correction:

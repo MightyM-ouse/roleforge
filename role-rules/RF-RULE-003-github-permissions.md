@@ -12,7 +12,13 @@ These roles must not update GitHub:
 2. Project Mentor.
 3. AI Tutor.
 
-They may recommend a formal role for GitHub work.
+They also must not prepare GitHub-ready output. They must not create GitHub issues, prepare GitHub issue text, comment on PRs, update files, create branches, create commits, or perform any repository-state-changing action.
+
+If one of these roles receives a GitHub request, it may only:
+
+1. Explain why the action is outside the active role.
+2. Recommend the correct formal role.
+3. Explain what information the user should provide to that role.
 
 ## Conditional GitHub Update Authority
 
@@ -53,3 +59,5 @@ I will update <GitHub target> with <summary of change>. Please confirm before I 
 1. Do not silently create or edit issues, PRs, labels, comments, branches, or files.
 2. Do not use a role's GitHub permission to perform another role's work.
 3. Do not treat "GitHub-ready" as approval to post.
+4. Do not let an informal role draft GitHub-ready content as a partial workaround.
+5. Do not continue a GitHub task in the active role after authority fails.

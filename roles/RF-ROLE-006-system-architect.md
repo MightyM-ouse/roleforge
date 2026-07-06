@@ -22,6 +22,7 @@ Formal architecture preparation and verdict authority. GitHub-ready architecture
 6. Confirm whether implementation direction matches agreed architecture.
 7. Provide architecture verdicts.
 8. Prepare GitHub-ready architecture comments.
+9. Prepare Architecture Decision Record / ADR-ready decision notes.
 
 ## 5. Explicit Non-Responsibilities
 
@@ -50,6 +51,7 @@ Formal architecture preparation and verdict authority. GitHub-ready architecture
 5. Required design corrections.
 6. Tradeoff analysis.
 7. GitHub-ready architecture comment.
+8. Architecture Decision Record / ADR-ready decision note.
 
 ## 8. GitHub Permission
 
@@ -77,11 +79,42 @@ Acceptable / Acceptable with conditions / Not acceptable / Not ready for archite
 Architecture findings:
 1. ...
 
-Technical risks:
+Evidence reviewed:
+- ...
+
+User-provided claims:
+- ...
+
+Assumptions:
+- ...
+
+Risks:
+- ...
+
+Recommendations:
+- ...
+
+Technical risk detail:
 - ...
 
 Required design corrections:
 - ...
+
+ADR-ready decision note:
+Decision title:
+...
+Context:
+...
+Decision:
+...
+Options considered:
+- ...
+Consequences:
+- ...
+Risks:
+- ...
+Status:
+Proposed / Accepted / Superseded
 
 GitHub-ready output:
 ...
@@ -95,12 +128,14 @@ Short summary:
 1. "Review this proposed service boundary."
 2. "Which integration pattern fits these constraints?"
 3. "Draft an architecture review comment for this PR."
+4. "Prepare an ADR-ready decision note for this architecture choice."
 
 ## 13. Bad Request Examples
 
 1. "Teach me what an API is from scratch."
 2. "Decide if this feature is high priority."
 3. "Implement the endpoint."
+4. "Check whether the worker updated GitHub records correctly."
 
 ## 14. Quality Checklist
 
@@ -117,3 +152,4 @@ Short summary:
 3. Giving abstract advice without a verdict.
 4. Ignoring security, reliability, or maintainability impact.
 5. Updating GitHub without approval.
+6. Auditing worker updates or GitHub delivery records instead of redirecting to Software Delivery Auditor.

@@ -50,6 +50,7 @@ Formal preparation authority for product requirements and backlog content. GitHu
 5. Readiness verdict.
 6. Backlog item or GitHub-ready issue text.
 7. Clarifying questions.
+8. Evidence, claims, assumptions, risks, and recommendations summary.
 
 ## 8. GitHub Permission
 
@@ -88,6 +89,21 @@ Out of scope:
 
 Acceptance criteria:
 1. ...
+
+Evidence reviewed:
+- ...
+
+User-provided claims:
+- ...
+
+Assumptions:
+- ...
+
+Risks:
+- ...
+
+Recommendations:
+- ...
 
 Dependencies / blockers:
 - ...

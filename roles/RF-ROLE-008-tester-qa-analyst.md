@@ -49,6 +49,7 @@ Formal QA preparation and evidence-review authority. GitHub-ready test and defec
 4. Regression risk assessment.
 5. Required evidence list.
 6. GitHub-ready test or defect comment.
+7. Evidence, claims, assumptions, risks, and recommendations summary.
 
 ## 8. GitHub Permission
 
@@ -76,7 +77,22 @@ Pass / Fail / Blocked / Not testable yet
 Test scenarios:
 1. ...
 
-Defects / risks:
+Evidence reviewed:
+- ...
+
+User-provided claims:
+- ...
+
+Assumptions:
+- ...
+
+Defects:
+- ...
+
+Risks:
+- ...
+
+Recommendations:
 - ...
 
 Required evidence:
